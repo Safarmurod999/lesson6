@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(19, 145, 206, 0.7);
+}
+.container .img-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  font-family: Roboto;
+  padding: 41px 199px 41px 92px;
+}
+.container .img-box h4 {
+  font-weight: 700;
+  font-size: 24.6829px;
+  color: #25468a;
+}
+.container .img-box img {
+  width: 53.66px;
+  height: 54px;
+}
+.left-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-left: 235px;
+}
+.left-menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+.left-menu li a {
+  font-family: Roboto;
+  text-decoration: none;
+  margin: 58px 16px 58px 16px;
+  color: #25468a;
+}
+.left-menu ul li .first {
+  color: white;
+}
+.left-menu ul li .last {
+  color: #14274c;
+  padding: 9px 18px;
+  background: #ffffff;
+  border-radius: 24px;
+}

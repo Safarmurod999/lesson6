@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+}
+.second-section {
+  background: #E9F5FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.second-section .card {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 176px;
+  padding: 68px 34px;
+  width: 352px;
+  height: 189px;
+  background: #1391ce;
+  box-shadow: 0px 10px 15px rgba(31, 100, 133, 0.1),
+    0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+.second-section .card p {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.bot-section {
+  padding-top: 63px;
+  background: #E9F5FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bot-section h3 {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}

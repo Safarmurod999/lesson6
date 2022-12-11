@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.ttf");
+}
+.fourth-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #E9F5FF;
+}
+.fourth-section .text-box {
+  padding-top: 0;
+  width: 428px;
+  text-align: left;
+  margin-right: 148px;
+}
+.fourth-section .text-box h4 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.fourth-section .text-box h3 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+  margin: 16px 0;
+}
+.fourth-section .text-box p {
+  margin: 32px 0;
+  width: 448px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.fourth-section .text-box span {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #1391ce;
+}
+.fourth-section .text-box ul {
+  margin-top: 16px;
+  margin-left: 30px;
+  list-style-type: none;
+}
+.fourth-section .text-box ul li {
+  list-style-image: url('../images/check-circle.svg');
+  font-family: "Inter";
+  margin: 5.5px 0;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.fourth-section .img-box {
+  width: 524px;
+  filter: drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.1))
+    drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.04));
+  border-radius: 8px;
+  margin-left: 8px;
+}
